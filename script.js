@@ -1,3 +1,4 @@
+const link = document.querySelector("#link")
 /*image gallery */
 function selectImage(event){
     const button = event.currentTarget;
@@ -16,38 +17,17 @@ function selectImage(event){
     const imagecontainer = document.querySelector(".orphanage-details > img")
     console.log(imagecontainer);
     //atualizar o cotainer de image
-    imagecontainer.src = image.src
+    imagecontainer.src = image.src;
+    link.src = image.src;
+    link.innerHTML = image.src;
     //adcionar a classe .active para este botao
     button.classList.add('active')
-}
-let tipoUsuario = 1;
-const img =  document.querySelector(".orphanage-details > img")
-
-setInterval(() => {
-    switch (tipoUsuario) {
-    case 1:
-        img.src = "https://source.unsplash.com/random?id=1";
-        tipoUsuario++
-        break;
-    case 2:
-        img.src = "https://source.unsplash.com/random?id=2";
-        tipoUsuario++
-        break;
-    case 3:
-        img.src = "https://source.unsplash.com/random?id=3https://source.unsplash.com/random?id=3";
-        tipoUsuario++
-        break;
-    case 4:
-        img.src = "https://source.unsplash.com/random?id=4";
-        tipoUsuario++
-        break;
-    case 5:
-        img.src = "https://source.unsplash.com/random?id=5";
-        tipoUsuario++
-        break;
-    case 6:
-        img.src = "https://source.unsplash.com/random?id=6";
-        tipoUsuario = 1;
-        break;
-}
-}, 4000);
+};
+document.querySelector("#cop").addEventListener("click", () => {
+    document.querySelector(".mesager").style.display = "flex";
+    const link_img = link.src
+    navigator.clipboard.writeText(link_img);
+});
+document.querySelector(".feche").addEventListener("click", () => {
+    document.querySelector(".mesager").style.display = "none";
+})

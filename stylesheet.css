@@ -16,11 +16,34 @@ body{
 
     border-radius:1rem;
     overflow: hidden;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
 }
 .orphanage-details > img{
  width:100%;
  height: 30rem;
  object-fit: cover;
+}
+.url{
+    width: 404px;
+    height: 54px;
+    background: rgb(177, 167, 167);
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.url a {
+    font-size: 1.3rem;
+    color: black;
+}
+.url img{
+    margin-left: 5px;
+    width:100%;
+    max-width: 45px;
+    cursor: pointer;
+    border-radius: 5px;
 }
 .images{
     display:grid;
@@ -48,4 +71,32 @@ body{
     width: 100%;
     height: 8.8rem;
     object-fit: cover;
+}
+.mesager{
+    width: 47%;
+    height: 25%;
+    position: fixed;
+    z-index: 15;
+    background: rgba(255,255,255);
+    display: none;
+    justify-content: space-between;
+    align-items: center;
+    top: 74%;
+    right: 29%;
+    
+}
+.mesager_text{
+    display:flex;
+    flex-direction: column;
+}
+
+.mesager  img{
+    width: 100%;
+    max-width: 48px;
+    border-left: 5px solid rgb(33,166,122)
+}
+.feche{
+    font-size: 1.6rem;
+    margin: 10px;
+    cursor:pointer;
 }
