@@ -1,12 +1,12 @@
 
 
-![GitHub repo size](https://img.shields.io/github/repo-size/Aislanio/Form-de-login-cadastro?style=for-the-badge)
-![GitHub language count](https://img.shields.io/github/languages/count/Aislanio/Form-de-login-cadastro?style=for-the-badge)
-![GitHub forks](https://img.shields.io/github/forks/Aislanio/Form-de-login-cadastro?style=for-the-badge)
-![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Aislanio/Form-de-login-cadastro?style=for-the-badge)
-![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Aislanio/Form-de-login-cadastro?style=for-the-badge)
+![GitHub repo size](https://img.shields.io/github/repo-size/Aislanio/Galeria?style=for-the-badge)
+![GitHub language count](https://img.shields.io/github/languages/count/Aislanio/Galeria?style=for-the-badge)
+![GitHub forks](https://img.shields.io/github/forks/Aislanio/Galeria?style=for-the-badge)
+![Bitbucket open issues](https://img.shields.io/bitbucket/issues/Aislanio/Galeria?style=for-the-badge)
+![Bitbucket open pull requests](https://img.shields.io/bitbucket/pr-raw/Aislanio/Galeria?style=for-the-badge)
 [![Netlify Status](https://api.netlify.com/api/v1/badges/24a38faf-19de-4ae4-bbef-7abf15010a1d/deploy-status)](https://app.netlify.com/sites/fervent-wiles-3945e4/deploys)
-# Formulario de Login e Cadastro
+# Galeria
 
 <img src="https://github.com/Aislanio/Galeria/blob/master/img/Captura%20de%20Tela%20(190).png" alt="imagem do site">
 
